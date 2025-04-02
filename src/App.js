@@ -98,7 +98,6 @@ function App() {
                                 />
                             </>
                         )}
-                        {isSignup && (
                             <TextField
                                 fullWidth
                                 type="email"
@@ -109,7 +108,6 @@ function App() {
                                 margin="normal"
                                 required
                             />
-                        )}
                         {!isSignup && (
                             <TextField
                                 fullWidth
